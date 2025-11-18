@@ -4,51 +4,46 @@
     <meta charset="UTF-8" />
     <title>Team</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Fullstack developer who will create your site wherever you are"
-    />
+    <meta name="description" content="Fullstack developer who will create your site wherever you are" />
 
     <!-- Favicon -->
-    <link id="favicon" rel="icon" type="image/svg+xml" href="./lightFavIcon.svg" />
+    <link id="favicon" rel="icon" type="image/svg+xml" href="/Portfolio-website-for-a-Full-stack-developer/lightFavIcon.svg" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
     <!-- Local CSS -->
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="/Portfolio-website-for-a-Full-stack-developer/css/index.css" />
 
     <!-- Custom Font -->
     <style>
       @font-face {
         font-family: 'Impact';
-        src: url('./fonts/impact.ttf') format('truetype');
+        src: url('/Portfolio-website-for-a-Full-stack-developer/fonts/impact.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
       }
     </style>
   </head>
   <body>
-
-    <header><load src="./partials/header.html"></load></header>
+    <!-- Контейнеры для partials -->
+    <header id="header"></header>
 
     <main>
-      <load src="./partials/hero.html"></load>
-      <load src="./partials/about-me.html"></load>
-      <load src="./partials/my-projects.html"></load>
-      <load src="./partials/benefits.html"></load>
-      <load src="./partials/question.html"></load>
-      <load src="./partials/reviews.html"></load>
-      <load src="./partials/work-together.html"></load>
+      <div id="hero"></div>
+      <div id="about-me"></div>
+      <div id="my-projects"></div>
+      <div id="benefits"></div>
+      <div id="question"></div>
+      <div id="reviews"></div>
+      <div id="work-together"></div>
     </main>
 
-    <footer><load src="./partials/footer.html"></load></footer>
+    <footer id="footer"></footer>
 
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="/Portfolio-website-for-a-Full-stack-developer/main.js"></script>
   </body>
 </html>
+
