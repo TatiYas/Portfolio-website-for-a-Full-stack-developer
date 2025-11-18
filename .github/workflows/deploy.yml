@@ -21,4 +21,4 @@ jobs:
         with:
           branch: gh-pages       # Ветка для GitHub Pages
           folder: dist           # Папка с билдом
-
+          token: ${{ secrets.GH_PAT }}  # Токен для доступа к репозиторию
