@@ -1,8 +1,5 @@
-// main.js — исправленная версия
-
-// ------------------------------
-// 1️⃣ Подгрузка всех partials (<load src="...">)
 document.addEventListener('DOMContentLoaded', async () => {
+  // Подгружаем все partials
   const loadElements = document.querySelectorAll('load[src]');
   for (const el of loadElements) {
     const url = el.getAttribute('src');
@@ -17,25 +14,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
-  // ------------------------------
-  // 2️⃣ Инициализация темы
-  import('./js/theme-module.js').then(({ getTheme }) => {
-    getTheme();
-  });
+  // Инициализация темы
+  import('./js/theme-module.js').then(({ getTheme }) => getTheme());
 
-  // ------------------------------
-  // 3️⃣ Инициализация AOS
+  // Инициализация AOS
   import('aos').then(AOS => {
     import('aos/dist/aos.css');
     AOS.init();
   });
 
-  // ------------------------------
-  // 4️⃣ Подключение всех остальных модулей сайта
+  // Подключаем остальные модули
   await Promise.all([
     import('./js/header.js'),
     import('./js/hero.js'),
-    import('./js/about-me.js'),
     import('./js/my-projects.js'),
     import('./js/question.js'),
     import('./js/reviews.js'),
