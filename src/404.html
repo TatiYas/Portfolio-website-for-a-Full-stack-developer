@@ -1,116 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    id="favicon"
-    rel="icon"
-    type="image/svg+xml"
-    href="/lightFavIcon.svg"
-  />
-    <title>404</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/404.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404</title>
+  <meta name="description" content="Page not found">
+
+  <!-- Favicon -->
+  <link id="favicon" rel="icon" type="image/svg+xml" href="/Portfolio-website-for-a-Full-stack-developer/lightFavIcon.svg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="/Portfolio-website-for-a-Full-stack-developer/css/index.css" />
+  <link rel="stylesheet" href="/Portfolio-website-for-a-Full-stack-developer/css/404.css" />
+
+  <!-- Custom Font -->
+  <style>
+    @font-face {
+      font-family: 'Impact';
+      src: url('/Portfolio-website-for-a-Full-stack-developer/fonts/impact.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
 </head>
 <body>
-    <header class="header">
-        <div class="container header-container">
-          <div class="logo">
-            <a class="logo-link" href="./index.html">lloyd<span class="logo-second-word">Jefferson.</span></a>
-          </div>
-          <nav class="header-nav">
-            <ul class="header-nav-menu">
-              <li class="header-nav-menu-item">
-                <label id="switch" class="switch">
-                  <input type="checkbox" id="slider" name="slider">
-                  <span class="slider round"></span>
-                </label>
-              </li>
-              <li class="header-nav-menu-item">
-                <a class="header-nav-menu-item-link" href="./index.html/#about-me" name="About me">About me</a>
-              </li>
-              <li class="header-nav-menu-item">
-                <a class="header-nav-menu-item-link" href="./index.html/#project" name="Projects">Projects</a>
-              </li>
-              <li class="header-nav-menu-item">
-                <a class="header-nav-menu-item-link" href="./index.html/#contacts" name="Contacts">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="mobile-menu-button">
-            <button type="button" class="mob-menu-btn" name="menu-open">
-              <span>
-              <svg class="modal_open_icon" width="32" height="32">
-                <use href="./images/symbol-defs.svg#icon-mobmenu-open"></use>
-              </svg>
-              </span>
-            </button>
-          </div>
-        </div>
-      </header>
 
-      <div class="mob-menu">
-        <div class="mob-menu-header">
-          <div class="mob-menu-logo">
-            <a class="mob-menu-logo-link">lloyd<span class="logo-second-word">Jefferson.</span></a>
-          </div>
-          <div class="mobile-menu-button-close">
-            <button type="button" class="mob-menu-btn-close" name="Close">
-              <svg class="modal_open_icon" width="32" height="32">
-                <use href="./images/symbol-defs.svg#icon-mobmenu-close"></use>
-              </svg>
-            </button>
-          </div>
-        </div>
-        <nav class="mob-menu-nav">
-          <ul class="mob-menu-nav-menu">
-            <li class="mob-menu-nav-menu-item">
-              <a class="mob-menu-nav-menu-item-link" href="./index.html#about-me" name="About me">About me</a>
-            </li>
-            <li class="mob-menu-nav-menu-item">
-              <a class="mob-menu-nav-menu-item-link" href="./index.html/#project" name="Projects">Projects</a>
-            </li>
-            <li class="mob-menu-nav-menu-item">
-              <a class="mob-menu-nav-menu-item-link" href="./index.html/#contacts" name="Contacts">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="switch-box">
-          <label id="switch" class="switch">
-            <input type="checkbox" id="mob--menu-slider" name="slider">
-            <span class="slider round"></span>
-          </label>
-        </div>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a class="logo-link" href="/Portfolio-website-for-a-Full-stack-developer/index.html">
+          lloyd<span class="logo-second-word">Jefferson.</span>
+        </a>
       </div>
+      <nav class="header-nav">
+        <ul class="header-nav-menu">
+          <li class="header-nav-menu-item">
+            <label id="switch" class="switch">
+              <input type="checkbox" id="slider" name="slider">
+              <span class="slider round"></span>
+            </label>
+          </li>
+          <li class="header-nav-menu-item">
+            <a class="header-nav-menu-item-link" href="/Portfolio-website-for-a-Full-stack-developer/index.html#about-me">About me</a>
+          </li>
+          <li class="header-nav-menu-item">
+            <a class="header-nav-menu-item-link" href="/Portfolio-website-for-a-Full-stack-developer/index.html#project">Projects</a>
+          </li>
+          <li class="header-nav-menu-item">
+            <a class="header-nav-menu-item-link" href="/Portfolio-website-for-a-Full-stack-developer/index.html#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-menu-button">
+        <button type="button" class="mob-menu-btn" name="menu-open">
+          <svg class="modal_open_icon" width="32" height="32">
+            <use href="/Portfolio-website-for-a-Full-stack-developer/images/symbol-defs.svg#icon-mobmenu-open"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
 
-    <main>
-        <div class="container">
-            <div class="loss-title">
-                <h1 class="loss-title-text">404</h1>
-            </div>
-            <div class="loss-description">
-                <p class="loss-description-text">
-                Oops, looks like you entered the wrong page. Or the project managers have not thought where the links should go in the "My Projects" section.
-                </p>
-            </div>
-            <div class="go-to-main">
-                <button type="button" class="go-to-main-button">
-                    <a class="go-to-main-button-link" href="./index.html">Go to the main</a>
-                </button>
-            </div>
-        </div>
-    </main>
-    <load src="./partials/footer.html" />
+  <div class="mob-menu">
+    <div class="mob-menu-header">
+      <div class="mob-menu-logo">
+        <a class="mob-menu-logo-link" href="/Portfolio-website-for-a-Full-stack-developer/index.html">
+          lloyd<span class="logo-second-word">Jefferson.</span>
+        </a>
+      </div>
+      <div class="mobile-menu-button-close">
+        <button type="button" class="mob-menu-btn-close" name="Close">
+          <svg class="modal_open_icon" width="32" height="32">
+            <use href="/Portfolio-website-for-a-Full-stack-developer/images/symbol-defs.svg#icon-mobmenu-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <nav class="mob-menu-nav">
+      <ul class="mob-menu-nav-menu">
+        <li class="mob-menu-nav-menu-item">
+          <a class="mob-menu-nav-menu-item-link" href="/Portfolio-website-for-a-Full-stack-developer/index.html#about-me">About me</a>
+        </li>
+        <li class="mob-menu-nav-menu-item">
+          <a class="mob-menu-nav-menu-item-link" href="/Portfolio-website-for-a-Full-stack-developer/index.html#project">Projects</a>
+        </li>
+        <li class="mob-menu-nav-menu-item">
+          <a class="mob-menu-nav-menu-item-link" href="/Portfolio-website-for-a-Full-stack-developer/index.html#contacts">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="switch-box">
+      <label id="switch" class="switch">
+        <input type="checkbox" id="mob--menu-slider" name="slider">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </div>
 
-    <script type="module" src="./js/404.js"></script>
+  <main>
+    <div class="container">
+      <div class="loss-title">
+        <h1 class="loss-title-text">404</h1>
+      </div>
+      <div class="loss-description">
+        <p class="loss-description-text">
+          Oops, looks like you entered the wrong page. Or the project managers haven't set proper links in the "My Projects" section.
+        </p>
+      </div>
+      <div class="go-to-main">
+        <a href="/Portfolio-website-for-a-Full-stack-developer/index.html">
+          <button type="button" class="go-to-main-button">Go to the main</button>
+        </a>
+      </div>
+    </div>
+  </main>
 
-    <script type="module" src="./js/404.js"></script>
+  <footer></footer>
+
+  <script type="module" src="/Portfolio-website-for-a-Full-stack-developer/js/404.js"></script>
 </body>
 </html>
