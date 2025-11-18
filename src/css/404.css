@@ -1,0 +1,89 @@
+.loss-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.loss-title-text {
+    color: var(--secondary-color);
+    font-size: 100px;
+}
+
+.loss-description, .go-to-main {
+    margin-top: 30px;
+}
+
+.go-to-main {
+    margin-bottom: 30px;
+}
+
+.loss-description-text {
+    font-size: 12px;
+    line-height: 32px;
+    color: var(--titles-color);
+    font-family: Poppins;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.go-to-main-button {
+    padding: 6px 6px;
+    display: block;
+    margin: 0 auto;
+    background: var(--secondary-color);
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .5px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.go-to-main-button:hover,
+.go-to-main-button:active,
+.go-to-main-button:focus
+ {
+    background: var(--muted-color);
+}
+
+.go-to-main-button a {
+   color: var(--third-color);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .loss-title {
+        height: 200px;
+    }
+
+    .loss-title-text {
+        font-size: 150px;
+    }
+
+    .loss-description-text {
+        font-size: 20px;
+    }
+
+    .go-to-main-button {
+        padding: 12px 12px;
+    }
+}
+
+@media screen and (max-height: 770px) {
+    footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+}

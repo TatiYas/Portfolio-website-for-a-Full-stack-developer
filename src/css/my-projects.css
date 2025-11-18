@@ -1,0 +1,235 @@
+a {
+  text-decoration: none;
+}
+
+.disable-click {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.hidden {
+  display: none;
+}
+
+.projects-item {
+  color: var(--titles-color);
+  font-family: Impact;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projects-span {
+  color: var(--secondary-color);
+  font-family: Impact;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.list-sites {
+  display: flex;
+  max-width: 320px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.lang-item {
+  color: var(--titles-color);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.text-info {
+  color: var(--titles-color);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.visit-button {
+  margin-left: auto;
+  margin-top: 16px;
+  display: block;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  border: none;
+  background: var(--accent-color);
+  cursor: pointer;
+  color: var(--titles-color)
+}
+
+.visit-button:hover {
+  background-color: #bbb;
+  transform: scale(1.03);
+  transition: transform 0.8s;
+  color: var(--titles-color);
+}
+
+.text-btn {
+  color: var(--titles-color);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 40px;
+}
+
+.list-sites {
+  list-style-type: none;
+}
+
+.two-button {
+  padding: 0px 20px;
+  color: var(--titles-color);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border: none;
+  background-color: var(--primary-color);
+  display: flex;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 52px;
+}
+
+.two-button:hover {
+  color: var(--secondary-color);
+  transform: scale(1.03);
+  transition: transform 0.8s;
+}
+
+.line-line {
+  stroke-width: 1px;
+  stroke: #00b068;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  margin: auto;
+}
+
+/*-----------TABLET------------*/
+@media screen and (min-width: 768px) {
+  .projects-item {
+    font-size: 108px;
+    line-height: 115%;
+    letter-spacing: 0.02em;
+  }
+
+  .projects-span {
+    font-size: 108px;
+    line-height: 115%;
+    letter-spacing: 0.02em;
+  }
+
+  .list-sites {
+    max-width: 704px;
+    gap: 60px;
+  }
+
+  .lang-item {
+    margin-top: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+
+  .text-info {
+    font-size: 36px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+  }
+
+  .items-info {
+    margin-top: 60px;
+  }
+
+  .visit-button {
+    margin: 0;
+    justify-content: end;
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+  }
+
+  .frame-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .two-button {
+    margin-top: 60px;
+  }
+
+  .text-btn {
+    margin-bottom: 0;
+  }
+}
+
+/*----------DESKTOP-----------*/
+@media screen and (min-width: 1280px) {
+  .four-section {
+    padding-top: 164px;
+  }
+
+  .projects-item {
+    margin-bottom: 80px;
+  }
+
+  .list-sites {
+    max-width: 1008px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .items-info:not(:first-child) {
+    margin-top: 80px;
+  }
+
+  .visit-button {
+    display: flex;
+    padding: 12px 24px;
+  }
+
+  .two-button {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 80px;
+  }
+
+  .items-info {
+    max-width: 1080px;
+  }
+}

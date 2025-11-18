@@ -1,0 +1,175 @@
+/* !------------- GENERAL -------------! */
+
+/* ------------- Header ------------- */
+
+.reviews-head {
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.23077;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--titles-color);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* ------------- Swiper and slides ------------- */
+
+#review-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--accent-color);
+  border-radius: 16px;
+  padding: 0 32px;
+  min-height: 360px;
+}
+
+/* ------------- Swiper buttons ------------- */
+
+.swiper-buttons {
+  height: 40px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+#btn-next,
+#btn-prev {
+  position: static;
+  display: inline-block;
+  border: 1px solid var(--input-color);
+  border-radius: 8px;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+#btn-next::after,
+#btn-prev::after {
+  content: '';
+}
+
+#btn-next:hover,
+#btn-prev:hover {
+  background-color: var(--accent-color);
+}
+
+.swiper-btn-icon {
+  stroke: var(--titles-color);
+  display: flex;
+  fill: transparent;
+}
+
+/* ------------- Reviews info ------------- */
+
+.reviews-text {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 24px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.review-author-data {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.reviews-img {
+  border-radius: 24px;
+  width: 40px;
+  height: 40px;
+}
+
+.reviews-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+/* ------------- Error container ------------- */
+
+.error-container {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  width: 320px;
+  height: 296px;
+  border-radius: 16px;
+  padding: 32px;
+  background-color: var(--accent-color);
+}
+
+/* ------------- Loader ------------- */
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  display: block;
+  margin: 30px auto;
+  width: 48px;
+  height: 48px;
+  border: 5px solid var(--accent-color);
+  border-bottom-color: var(--secondary-color);
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* !------------- TABLET -------------! */
+
+@media screen and (min-width: 768px) {
+  .reviews-head {
+    font-size: 108px;
+    line-height: 1.14815;
+    letter-spacing: 0.02em;
+    margin-bottom: 60px;
+  }
+
+  #review-slide {
+    width: 704px;
+    min-height: 224px;
+  }
+
+  .error-container {
+    width: 700px;
+  }
+}
+
+/* !------------- DESKTOP -------------! */
+
+@media screen and (min-width: 1280px) {
+  .reviews-head {
+    margin-bottom: 80px;
+  }
+
+  #review-slide {
+    width: 592px;
+    min-height: 247px;
+  }
+}
