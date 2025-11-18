@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v3
 
       - name: Install and build 🔧
         run: |
@@ -19,6 +19,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          branch: gh-pages
-          folder: dist
-          folder: dist
+          branch: gh-pages       # Ветка для GitHub Pages
+          folder: dist           # Папка с билдом
+
