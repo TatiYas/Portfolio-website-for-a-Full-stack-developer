@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build":"vite build --base=/Portfolio-website-for-a-Full-stack-developer/"
-,
+    "build": "vite build --base=/Portfolio-website-for-a-Full-stack-developer/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -18,7 +17,7 @@
   "dependencies": {
     "accordion-js": "^3.3.4",
     "aos": "^2.3.4",
-    "axios": "^1.5.1",
+    "axios": "^1.13.2",
     "izitoast": "^1.4.0",
     "modern-normalize": "^2.0.0",
     "swiper": "^11.1.4",
