@@ -2,13 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>Team</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fullstack developer who will create your site wherever you are"
+    />
+
+
     <link
       id="favicon"
       rel="icon"
       type="image/svg+xml"
-      href="./lightFavIcon.svg"
+      href="/Portfolio-website-for-a-Full-stack-developer/lightFavIcon.svg"
     />
-    <style media="screen, print">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+
+    <link
+      rel="stylesheet"
+      href="/Portfolio-website-for-a-Full-stack-developer/css/index.css"
+    />
+
+    <style>
       @font-face {
         font-family: 'Impact';
         src: url('./fonts/impact.ttf') format('truetype');
@@ -16,30 +39,26 @@
         font-style: normal;
       }
     </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team</title>
-    <meta name="description" content="Fullstack developer who will create your site wherever you are" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
-    <main>
-      <load ="partials/hero.html" />
-      <load ="partials/about-me.html" />
-      <load ="partials/my-projects.html" />
-      <load ="partials/benefits.html" />
-      <load ="partials/question.html" />
-      <load ="partials/reviews.html" />
-      <load ="partials/work-together.html" />
-    </main>
-    <load ="partials/footer.html" />
 
-    <script type="module" src="./main.js"></script>
+    <header><load src="./partials/header.html"></load></header>
+
+    <main>
+
+      <load src="./partials/hero.html"></load>
+      <load src="./partials/about-me.html"></load>
+      <load src="./partials/my-projects.html"></load>
+      <load src="./partials/benefits.html"></load>
+      <load src="./partials/question.html"></load>
+      <load src="./partials/reviews.html"></load>
+      <load src="./partials/work-together.html"></load>
+    </main>
+
+
+    <footer><load src="./partials/footer.html"></load></footer>
+
+
+    <script type="module" src="/Portfolio-website-for-a-Full-stack-developer/main.js"></script>
   </body>
 </html>
