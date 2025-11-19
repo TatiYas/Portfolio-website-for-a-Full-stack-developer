@@ -6,13 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/Portfolio-website-for-a-Full-stack-developer/",
-    "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "glob": "^8.1.0",
-    "vite": "^4.5.2",
-    "gh-pages": "^5.0.0"
+    "vite": "^4.5.2"
   },
   "author": "Tetiana Yasynovska <Dios@i.ua>",
   "license": "ISC",
@@ -27,4 +25,3 @@
     "vite-plugin-html-inject": "^1.0.1"
   }
 }
-
