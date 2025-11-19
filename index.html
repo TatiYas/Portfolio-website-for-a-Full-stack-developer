@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      id="favicon"
+      rel="icon"
+      type="image/svg+xml"
+      href="/Portfolio-website-for-a-Full-stack-developer/lightFavIcon.svg"
+    />
+    <style media="screen, print">
+      @font-face {
+        font-family: 'Impact';
+        src: url('/Portfolio-website-for-a-Full-stack-developer/assets/impact-00f1fc23.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeCraftersTeam</title>
+    <meta name="description" content="Fullstack developer who will create your site wherever you are" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <script type="module" crossorigin src="/Portfolio-website-for-a-Full-stack-developer/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/Portfolio-website-for-a-Full-stack-developer/assets/theme-module-6e928c5e.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio-website-for-a-Full-stack-developer/assets/vendor-b5142571.js">
+    <link rel="stylesheet" href="/Portfolio-website-for-a-Full-stack-developer/assets/theme-module-9751c3e4.css">
+    <link rel="stylesheet" href="/Portfolio-website-for-a-Full-stack-developer/assets/vendor-e416a345.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <div class="logo">
+      <a class="logo-link" href="./index.html">lloyd<span class="logo-second-word">Jefferson.</span></a>
+    </div>
+    <nav class="header-nav">
+      <ul class="header-nav-menu">
+        <li class="header-nav-menu-item">
+          <label id="switch" class="switch">
+            <input type="checkbox" id="slider" name="slider">
+            <span class="slider round"></span>
+          </label>
+        </li>
+        <li class="header-nav-menu-item">
+          <a class="header-nav-menu-item-link" href="#about-me" name="About-me">About me</a>
+        </li>
+        <li class="header-nav-menu-item">
+          <a class="header-nav-menu-item-link" href="#project" name="Projects">Projects</a>
+        </li>
+        <li class="header-nav-menu-item">
+          <a class="header-nav-menu-item-link" href="#contacts" name="Contacts">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-button">
+      <button type="button" class="mob-menu-btn" name="menu-open">
+        <span>
+        <svg class="modal_open_icon" width="32" height="32">
+          <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-mobmenu-open"></use>
+        </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mob-menu">
+  <div class="mob-menu-header">
+    <div class="mob-menu-logo">
+      <a class="mob-menu-logo-link">lloyd<span class="logo-second-word">Jefferson.</span></a>
+    </div>
+    <div class="mobile-menu-button-close">
+      <button type="button" class="mob-menu-btn-close" name="Close">
+        <svg class="modal_open_icon" width="32" height="32">
+          <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-mobmenu-close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mob-menu-nav">
+    <ul class="mob-menu-nav-menu">
+      <li class="mob-menu-nav-menu-item">
+        <a class="mob-menu-nav-menu-item-link" href="#about-me" name="About-me">About me</a>
+      </li>
+      <li class="mob-menu-nav-menu-item">
+        <a class="mob-menu-nav-menu-item-link" href="#project" name="Projects">Projects</a>
+      </li>
+      <li class="mob-menu-nav-menu-item">
+        <a class="mob-menu-nav-menu-item-link" href="#contacts" name="Contacts">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="switch-box">
+    <label id="switch" class="switch">
+      <input type="checkbox" id="mob--menu-slider" name="slider">
+      <span class="slider round"></span>
+    </label>
+  </div>
+</div>
+
+    <main>
+      <section class="hero" id="hero">
+  <div class="container">
+    <div class="destop-hero">
+      <h1 class="hero-title" data-aos="zoom-in-up" data-aos-duration="3000">
+        Hello, I am
+        <span class="text-decoration-accent">Fullstack developer</span>
+      </h1>
+
+      <div class="hero-image">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/img1x-e913d1a8.jpg 1x, /Portfolio-website-for-a-Full-stack-developer/assets/img2x-4fa1275e.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/img1x-e913d1a8.jpg 1x, /Portfolio-website-for-a-Full-stack-developer/assets/img2x-4fa1275e.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/img1x-e913d1a8.jpg 1x, /Portfolio-website-for-a-Full-stack-developer/assets/img2x-4fa1275e.jpg 2x"
+          />
+          <img src="/Portfolio-website-for-a-Full-stack-developer/assets/img1x-e913d1a8.jpg" alt="Person" loading="lazy" />
+        </picture>
+      </div>
+    </div>
+
+    <div class="container-button-text">
+      <div class="button-text hero_button_wraper">
+        <button type="button" class="hero-button">
+          <span class="group-icon">
+            <svg class="hero-icon-button" width="28" height="18">
+              <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-hero"></use>
+            </svg>
+            <span class="button-text">Order the project</span>
+          </span>
+
+          <span class="page-button"></span>
+        </button>
+      </div>
+
+      <p class="hero-dscr-text">
+        I work with people all over the world to create
+        <span class="hero-dscr-text-accent">impressive</span> and
+        <span class="hero-dscr-text-accent">functional websites</span> that
+        reflect each client's unique personality.
+      </p>
+    </div>
+  </div>
+  <div>
+    <ul class="hero-social-list">
+      <li class="hero-social-item">
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
+      </li>
+      <li class="hero-social-item">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Facebook</a
+        >
+      </li>
+      <li class="hero-social-item">
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Linkedin</a
+        >
+      </li>
+      <li class="hero-social-item">
+        <a
+          href="https://spinkll.github.io/Project-javascript-goit/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="about-me"  id="about-me">
+    <div class="container">
+        <h2 class="about-me-title" data-aos="zoom-in-up" data-aos-duration="3000">ABOUT<span class="about-me__color">ME</span></h2>
+        <div class="about-me__block bio__position" >
+            <picture >
+                <source srcset="/Portfolio-website-for-a-Full-stack-developer/assets/about-desktop-8501ea85.png " media="(min-width: 1280px)">
+                <source srcset="/Portfolio-website-for-a-Full-stack-developer/assets/about-tab-a6399ad2.png " media="(min-width: 768px)">
+                <source srcset="/Portfolio-website-for-a-Full-stack-developer/assets/about-mob-1043412b.png " media="(min-width: 360px)">
+                <img class="about-me__img" src="/Portfolio-website-for-a-Full-stack-developer/assets/about-mob-1043412b.png" alt="face">
+            </picture>
+            <div class="about-me__block" data-aos="fade-up" data-aos-duration="3000">
+            <h3 class="about-me__title">BIO</h3>
+            <p class="bio__text wh">I'm Lloyd Jefferson, a talented programmer specializing in software development. My expertise spans various programming languages and technologies, and I am dedicated to continually enhancing my skills. I thrive on seeking unconventional and creative solutions to problems, leveraging a high level of analytical skills to effectively tackle even the most challenging tasks.</p>
+            <p class="bio__text">Adaptable to both independent and team-oriented work, I collaborate seamlessly with colleagues, exchanging ideas and finding optimal solutions. My professional maturity enables me to navigate challenges and stressful situations with a calm demeanor, maintaining a consistently high quality of work. Committed to self-improvement, I actively engage in studying new technologies and practices to stay current with the latest innovations in the field.</p>
+        <picture >
+            <source srcset="/Portfolio-website-for-a-Full-stack-developer/assets/about-decor-desktop-eec30849.png " media="(min-width: 1280px)">
+            <source srcset="/Portfolio-website-for-a-Full-stack-developer/assets/about-decor-tab-86df1438.png " media="(min-width: 768px)">
+            <img class="about-me__bg" src="/Portfolio-website-for-a-Full-stack-developer/assets/about-decor-tab-86df1438.png" alt="bg">
+        </picture>
+        </div>
+        </div> 
+        <div class="blocks__position">
+        <div class="about-me__block about-me_desk" data-aos="fade-up" data-aos-duration="3000">
+            <h3 class="about-me__title" >EDUCATION</h3>
+            <ul class="education__list">
+                <li class="education__item">2018 - 2019  / Frontend Development Diploma, GoIT IT School, New York</li>
+                <li class="education__item">2019 - 2020 / Advanced Web Development Certificate, GoIT IT School, New York</li>
+                <li class="education__item">2020 - 2022 / Advanced Blender Animation Techniques, Udemy</li>
+            </ul>
+        </div> 
+        <div class="about-me__block about-me_desk" data-aos="fade-up" data-aos-duration="3000">
+            <h3 class="about-me__title">ROLE</h3>
+            <ul class="role__list">
+                <li class="role__item">Frontend development</li>
+                <li class="role__item">HeadlessCMS, Wordpress</li>
+                <li class="role__item">Blender (enjoy)</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <div class="skills-wrap">
+    <div class="skills">
+        <ul class="skills__wrapper">
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">React</li>
+            <li class="skills__item">React Native</li>
+            <li class="skills__item">HTML/CSS</li>
+            <li class="skills__item">Node.js</li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">React</li>
+            <li class="skills__item">React Native</li>
+            <li class="skills__item">HTML/CSS</li>
+            <li class="skills__item">Node.js</li>
+        </ul>
+    </div>
+    <div class="skills skills__bg">
+        <ul class="skill__wrapper">
+            <li class="skill__item">Node.js</li>
+            <li class="skill__item">HTML/CSS</li>
+            <li class="skill__item">JavaScript</li>
+            <li class="skill__item">React Native</li>
+            <li class="skill__item">React</li>
+            <li class="skill__item">Node.js</li>
+            <li class="skill__item">HTML/CSS</li>
+            <li class="skill__item">JavaScript</li>
+            <li class="skill__item">React Native</li>
+            <li class="skill__item">React</li>
+        </ul>
+    </div>
+    </div>
+      <section class="four-section" id="project">
+  <div class="container">
+    <h2 class="projects-item" data-aos="zoom-in-up" data-aos-duration="3000" >
+      My<span class="projects-span"> projects</span>
+    </h2>
+    <ul id="list-sites">
+      <li class="items-info" data-aos="fade-zoom-in" data-aos-duration="3000">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/first-desk2x-17baed2a.png 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/first-tablet2x-c7ffb7ba.png 2x"
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/first-phone2x-a0726aeb.png 2x"
+          />
+          <img
+            src="/Portfolio-website-for-a-Full-stack-developer/assets/first-phone1x-a193abe5.png"
+            alt="projects"
+            width="1080"
+            height="578"
+          />
+        </picture>
+        <p class="lang-item">React, JavaScript, Node JS, Git</p>
+        <div class="frame-group">
+          <h3 class="text-info">Wallet webservice</h3>
+          <div class="text-btn">
+            <button class="visit-button">
+              VISIT
+                <svg class="icon-icon" width="14.5" height="14.5">
+                  <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-my-project"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="items-info" data-aos="fade-zoom-in" data-aos-duration="3000">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/two-desk2x-02a9466d.png 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/two-tablet2x-8ecc387a.png 2x"
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/two-phone2x-7f22df15.png 2x"
+          />
+          <img
+            src="/Portfolio-website-for-a-Full-stack-developer/assets/two-phone1x-edce8621.png"
+            alt="projects"
+            width="1080"
+            height="578"
+          />
+        </picture>
+        <p class="lang-item">React, JavaScript, Node JS, Git</p>
+        <div class="frame-group">
+          <h3 class="text-info">Green harvest webservice</h3>
+          <div class="text-btn">
+            <button class="visit-button">
+              VISIT
+                <svg class="icon-icon" width="14.5" height="14.5">
+                  <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-my-project"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="items-info" data-aos="fade-zoom-in" data-aos-duration="3000">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/three-desk2x-bdbf26e9.png 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/three-tablet2x-6e3285a3.png 2x"
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/three-phone2x-80621e06.png 2x"
+          />
+          <img
+            src="/Portfolio-website-for-a-Full-stack-developer/assets/three-phone1x-d99520be.png"
+            alt="projects"
+            width="1080"
+            height="578"
+          />
+        </picture>
+        <p class="lang-item">React, JavaScript, Node JS, Git</p>
+        <div class="frame-group">
+          <h3 class="text-info">English Exellence website</h3>
+          <div class="text-btn">
+            <button class="visit-button">
+              VISIT
+                <svg class="icon-icon" width="14.5" height="14.5">
+                  <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-my-project"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="items-info hidden" data-aos="fade-zoom-in" data-aos-duration="3000">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/four-phone2x-47d104d9.png 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/four-phone2x-47d104d9.png 2x"
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/four-phone2x-47d104d9.png 2x"
+          />
+          <img
+            src="/Portfolio-website-for-a-Full-stack-developer/assets/four-phone1x-69fe0c7c.png"
+            alt="projects"
+            width="1080"
+            height="578"
+          />
+        </picture>
+        <p class="lang-item">React, JavaScript, Node JS, Git</p>
+        <div class="frame-group">
+          <h3 class="text-info">Starlight studio landing page</h3>
+          <div class="text-btn">
+            <button class="visit-button" id="buttons-container">
+              VISIT
+                <svg class="icon-icon" width="14.5" height="14.5">
+                  <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-my-project"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="items-info hidden" data-aos="fade-zoom-in" data-aos-duration="3000">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/five-phone2x-b8b8d55b.png 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/five-phone2x-b8b8d55b.png 2x"
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/five-phone2x-b8b8d55b.png 2x"
+          />
+          <img
+            src="/Portfolio-website-for-a-Full-stack-developer/assets/five-phone1x-85b2a01a.png"
+            alt="projects"
+            width="1080"
+            height="578"
+          />
+        </picture>
+        <p class="lang-item">React, JavaScript, Node JS, Git</p>
+        <div class="frame-group">
+          <h3 class="text-info">Fruitbox online store</h3>
+          <div class="text-btn">
+            <button class="visit-button">
+              VISIT
+                <svg class="icon-icon" width="14.5" height="14.5">
+                  <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-my-project"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="items-info hidden" data-aos="fade-zoom-in" data-aos-duration="3000">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/six-phone2x-ac8b2f21.png 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/six-phone2x-ac8b2f21.png 2x"
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/six-phone2x-ac8b2f21.png 2x"
+          />
+          <img
+            src="/Portfolio-website-for-a-Full-stack-developer/assets/six-phone1x-e00e2518.png"
+            alt="projects"
+            width="1080"
+            height="578"
+          />
+        </picture>
+        <p class="lang-item">React, JavaScript, Node JS, Git</p>
+        <div class="frame-group">
+          <h3 class="text-info">Energy flow webservice</h3>
+          <div class="text-btn">
+            <button class="visit-button">
+              VISIT
+                <svg class="icon-icon" width="14.5" height="14.5">
+                  <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-my-project"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="items-info hidden" data-aos="fade-zoom-in" data-aos-duration="3000">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/seven-phone2x-be764d33.png 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/seven-phone2x-be764d33.png 2x"
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/seven-phone2x-be764d33.png 2x"
+          />
+          <img
+            src="/Portfolio-website-for-a-Full-stack-developer/assets/seven-phone1x-492e8988.png"
+            alt="projects"
+            width="1080"
+            height="578"
+          />
+        </picture>
+        <p class="lang-item">React, JavaScript, Node JS, Git</p>
+        <div class="frame-group">
+          <h3 class="text-info">Chego jewelry website</h3>
+          <div class="text-btn">
+            <button class="visit-button">
+              VISIT
+                <svg class="icon-icon" width="14.5" height="14.5">
+                  <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-my-project"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="items-info hidden" data-aos="fade-zoom-in" data-aos-duration="3000">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/eight-phone2x-dd2fcaaa.png 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/eight-phone2x-dd2fcaaa.png 2x"
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/eight-phone2x-dd2fcaaa.png 2x"
+          />
+          <img
+            src="/Portfolio-website-for-a-Full-stack-developer/assets/eight-phone1x-98f73221.png"
+            alt="projects"
+            width="1080"
+            height="578"
+          />
+        </picture>
+        <p class="lang-item">React, JavaScript, Node JS, Git</p>
+        <div class="frame-group">
+          <h3 class="text-info">Vyshyvanka vibes Landing Page</h3>
+          <div class="text-btn">
+            <button class="visit-button">
+              VISIT
+                <svg class="icon-icon" width="14.5" height="14.5">
+                  <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-my-project"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="items-info hidden" data-aos="fade-zoom-in" data-aos-duration="3000">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/nine-phone2x-b5771f60.png 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/nine-phone2x-b5771f60.png 2x"
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/nine-phone2x-b5771f60.png 2x"
+          />
+          <img
+            src="/Portfolio-website-for-a-Full-stack-developer/assets/nine-phone1x-e85b5d86.png"
+            alt="projects"
+            width="1080"
+            height="578"
+          />
+        </picture>
+        <p class="lang-item">React, JavaScript, Node JS, Git</p>
+        <div class="frame-group">
+          <h3 class="text-info">Power pulse webservice</h3>
+          <div class="text-btn">
+            <button class="visit-button">
+              VISIT
+                <svg class="icon-icon" width="14.5" height="14.5">
+                  <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-my-project"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="items-info hidden" data-aos="fade-zoom-in" data-aos-duration="3000">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/ten-phone2x-598fd740.png 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/ten-phone2x-598fd740.png 2x"
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="/Portfolio-website-for-a-Full-stack-developer/assets/ten-phone2x-598fd740.png 2x"
+          />
+          <img
+            src="/Portfolio-website-for-a-Full-stack-developer/assets/ten-phone1x-a2cc77a7.png"
+            alt="projects"
+            width="1080"
+            height="578"
+          />
+        </picture>
+        <p class="lang-item">React, JavaScript, Node JS, Git</p>
+        <div class="frame-group">
+          <h3 class="text-info">Mimino website</h3>
+          <div class="text-btn">
+            <button class="visit-button">
+              VISIT
+                <svg class="icon-icon" width="14.5" height="14.5">
+                  <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-my-project"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <button id="two-button" class="two-button">
+      Load more
+      <svg class="line-line hidden" width="107" height="2">
+        <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-Arrow-1-4"></use>
+      </svg>
+    </button>
+  </div>
+</section>
+
+      <section class="benefits-section-wrap">
+  <div class="container benefits-bg" >
+    <h2 class="benefits-header" data-aos="zoom-in-up" data-aos-duration="3000">
+      <span class="benefits-span-green">BENEFITS</span> OF WORKING WITH ME
+    </h2>
+    <div class="benefits-content-wrap">
+      <ul class="benefits-list-wrap">
+        <li class="benefits-list" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <div class="benefits-icon-wrap">
+            <svg class="benefits-icon" width="48" height="48">
+              <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-benefits-user"></use>
+            </svg>
+          </div>
+          <p class="benefits-paragraf">EXPERTISE</p>
+          <p class="benefits-text">
+            With extensive experience in development, I have a deep
+            understanding of programming and website development.
+          </p>
+        </li>
+        <li class="benefits-list" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <div class="benefits-icon-wrap">
+            <svg class="benefits-icon" width="48" height="48">
+              <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-benefits-message"></use>
+            </svg>
+          </div>
+          <p class="benefits-paragraf">COMMUNICATION</p>
+          <p class="benefits-text">
+            Understanding your needs and wants is my priority and I am always
+            available for discussions and open to corrections.
+          </p>
+        </li>
+        <li class="benefits-list" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <div class="benefits-icon-wrap">
+            <svg class="benefits-icon" width="48" height="48">
+              <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-benefits-brush"></use>
+            </svg>
+          </div>
+          <p class="benefits-paragraf">ART</p>
+          <p class="benefits-text">
+            Thanks to my creative nature, I am ready to accept challenges and
+            help you bring your ideas to life.
+          </p>
+        </li>
+        <li class="benefits-list" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <div class="benefits-icon-wrap">
+            <svg class="benefits-icon" width="48" height="48">
+              <use
+                href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-benefits-hourglass"
+              ></use>
+            </svg>
+          </div>
+          <p class="benefits-paragraf">URGENT EXECUTION</p>
+          <p class="benefits-text">
+            I understand how important time is to you. Ready to work quickly and
+            efficiently, without reducing the quality of work.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="faq">
+  <div class="container">
+    <h2 class="faq__title" data-aos="zoom-in-up" data-aos-duration="3000">
+      frequently asked <span class="faq__title-accent">question</span>
+    </h2>
+    <ul class="faq__list">
+      <li class="faq__item">
+        <h3 class="faq__subtitle">
+          <button type="button" class="faq__btn">
+            What programming languages are most often used in your project?
+            <svg class="faq__icon" width="32" height="32">
+              <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-faq-top"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="faq__text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="faq__item">
+        <h3 class="faq__subtitle">
+          <button type="button" class="faq__btn">
+            What are the deadlines for the project?
+            <svg class="faq__icon" width="32" height="32">
+              <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-faq-top"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="faq__text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="faq__item">
+        <h3 class="faq__subtitle">
+          <button type="button" class="faq__btn">
+            What payment methods do you accept?
+            <svg class="faq__icon" width="32" height="32">
+              <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-faq-top"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="faq__text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+      <li class="faq__item">
+        <h3 class="faq__subtitle">
+          <button type="button" class="faq__btn">
+            How can I contact you?
+            <svg class="faq__icon" width="32" height="32">
+              <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-faq-top"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="faq__text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="faq__item">
+        <h3 class="faq__subtitle">
+          <button type="button" class="faq__btn">
+            Do you provide advice or support?
+            <svg class="faq__icon" width="32" height="32">
+              <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-faq-top"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="faq__text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="faq__item">
+        <h3 class="faq__subtitle">
+          <button type="button" class="faq__btn">
+            What does the process of developing a software product look like
+            from idea to implementation?
+            <svg class="faq__icon" width="32" height="32">
+              <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-faq-top"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="faq__text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="reviews-section">
+  <div class="container">
+    <!-- Header -->
+    <h2 class="reviews-head" data-aos="zoom-in-up" data-aos-duration="3000">Reviews</h2>
+
+    <!-- Loader -->
+    <div class="loader-container"><span class="loader"></span></div>
+
+    <!-- Slider main container -->
+    <div class="swiper" id="swiper-container">
+      <!-- Additional required wrapper -->
+      <ul class="swiper-wrapper"></ul>
+
+      <!-- Navigation buttons -->
+      <div class="swiper-buttons">
+        <div class="swiper-button-prev" id="btn-prev">
+          <svg class="swiper-btn-icon">
+            <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-reviews-left"></use>
+          </svg>
+        </div>
+        <div class="swiper-button-next" id="btn-next">
+          <svg class="swiper-btn-icon">
+            <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-reviews-right"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container for backend errors -->
+    <div class="error-container"></div>
+
+    
+  </div>
+</section>
+
+      <section class="work-together" id="contacts">
+    <div class="container">
+        <h2 class="work-together-title" data-aos="zoom-in-up" data-aos-duration="3000">
+            <span class="black-work-together-title">let’s</span>
+            work together
+        </h2>
+        <div class="contacts-container">
+            <div class="work-together-contacts">
+                <p class="work-together-text">
+                    Contact me to transform your ideas into exceptional solutions.
+                </p>
+                <address class="work-together-address">
+                    <ul class="page-address">
+                        <li class="address-icon">
+                            <svg class="lwt-icon" width="24" height="24">
+                                <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-lwt-phone"></use>
+                            </svg>
+                            <a href="tel:+380904567890" class="footer-link">+38 090 456 78 90</a>
+                        </li>
+                        <li class="address-icon">
+                            <svg class="lwt-icon" width="24" height="24">
+                                <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-lwt-email"></use>
+                            </svg>
+                            <a href="mailto:lloydjefferson@gmail.com" class="footer-link">lloydjefferson@gmail.com</a>
+                        </li>
+                        <li class="address-icon">
+                            <svg class="lwt-icon" width="24" height="24">
+                                <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-lwt-maps"></use>
+                            </svg>
+                            <a href="https://maps.google.com/maps?ll=40.712776,-74.005974&z=10&t=m&hl=en&gl=US&mapclient=embed&q=New+York+City+New+York+USA" target="_blank">USA, New York</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <form class="work-together-form" novalidate>
+                <div class="form-input">
+                    <label for="user-email" class="user-input visually-hidden">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        class="email-input"
+                        id="user-email"
+                        placeholder="Your email*"
+                        pattern="^[\\w\\.-]+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$"
+                        required
+                    />
+                    <div class="error-message" id="email-error"></div>
+                    <div class="icon-email">
+                        <svg class="icon-ok" width="16" height="16">
+                            <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-ep_success-filled"></use>
+                        </svg>
+                    </div>
+                    <label for="user-message" class="user-input visually-hidden">Message</label>
+                    <textarea
+                        name="message"
+                        id="user-message"
+                        class="order-textarea"
+                        placeholder="Message"
+                        required
+                    ></textarea>
+                </div>
+                <button type="submit" class="form-submit-btn">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<div id="success-modal" class="modal visually-hidden">
+    <div class="modal-backdrop">
+        <div class="modal-container">
+            <button class="button-close" type="button">
+                <svg class="icon-close" width="24" height="24">
+                    <use href="/Portfolio-website-for-a-Full-stack-developer/assets/symbol-defs-113a68d0.svg#icon-x"></use>
+                </svg>
+            </button>
+            <h3 class="title-modal">
+                Thank you for your interest in cooperation!
+            </h3>
+            <p class="text-modal">The manager will contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch.</p>
+        </div>
+    </div>
+</div>
+
+    </main>
+    
+<footer class="footer-container">
+  <div class="footer container">
+  <div class="logo-socials-block">
+    <a class="logo" href="./index.html"
+      >Lloyd<span class="colored-logo">Jefferson.</span></a
+    >
+    <ul class="socials-list">
+      <li class="socials-item">
+        <a
+          class="socials-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          >Instagram</a
+        >
+      </li>
+      <li class="socials-item">
+        <a
+          class="socials-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          >Facebook</a
+        >
+      </li>
+      <li class="socials-item">
+        <a
+          class="socials-link"
+          href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+          target="_blank"
+          >Linkedin</a
+        >
+      </li>
+      <li class="socials-item">
+        <a class="socials-link" href="https://spinkll.github.io/Project-javascript-goit/" target="_blank">GitHub</a>
+      </li>
+    </ul>
+  </div>
+  <div class="copyright-block">
+    <p class="copyright-paragraph">© Copyright 2024.&nbsp;</p>
+    <p class="copyright-paragraph">Made by LloydJefferson</p>
+  </div>
+  </div>
+</footer>
+
+
+    
+  </body>
+</html>
