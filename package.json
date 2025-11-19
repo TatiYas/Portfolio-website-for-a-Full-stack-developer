@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=Portfolio-website-for-a-Full-stack",
+    "build": "vite build --base=/Portfolio-website-for-a-Full-stack/",
     "preview": "vite preview"
   },
   "devDependencies": {
